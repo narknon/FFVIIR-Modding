@@ -1,0 +1,200 @@
+;;;;;;;;;;
+;;;;
+;;; SKIN Shaders
+;;;;;;;;;;;;;;;
+
+;VS
+
+[ShaderOverrideSkinBase-VS1]
+hash = 2f0f6bd8d7e374ed
+run = CommandListSkin
+
+
+[ShaderOverrideSkinBase-VS2]
+; Barrett face
+hash = 569dea2a29d5dbfe
+run = CommandListSkin
+
+;PS
+
+[ShaderOverrideSkinBase-PS1]
+; Cloud skin highLOD
+hash = 54c7eb58e6a47dd1
+run = CommandListSkin
+
+[ShaderOverrideSkinBase-PS2]
+; skin highLOD
+hash = 0750f5890fa28911
+run = CommandListSkin
+
+[ShaderOverrideSkinBase-PS3]
+; skin 
+hash = c47486ce4ca51d46
+run = CommandListSkin
+
+[ShaderOverrideSkinBase-PS4]
+; skin 
+hash = 6edf7b59fdaa4548
+run = CommandListSkin
+
+;;;;;;;;;;
+;;;;
+;;; Costume Shaders
+;;;;;;;;;;;;;;;
+
+;VS
+
+[ShaderOverrideClothesBase-VS1]
+; Cloud costume and skin
+hash = 4a4444c5736376d0
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-VS2]
+; Cloud costume and skin
+hash = 8aa22b1f24a19d99
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-VS3]
+; Cloud costume and skin (makes them disappear, not go black)
+hash = dc03da0e1c5b6995
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-VS4]
+; Tifa Clothes; cloud clothes
+hash = 60a02037d48f6a88
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-VS5]
+; Barrett body and Cloud sword; npc weapons
+hash = f403cedc66975ccc
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-VS6]
+; Aerith Dress
+hash = 8ce5d412434a9c54
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-VS7]
+; tifa and cloud clothes
+hash = 0fcd2a51d59b6599
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-VS8]
+; Cloud arm bandage; npc clothes; eyelids
+hash = 5b5d7049b6ad0493
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-VS9]
+; Cloud arm wrap costume piece and Barrett zippers
+hash = fc1729d3da024dcd
+run = CommandListSkin
+
+
+;PS
+
+[ShaderOverrideClothesBase-PS1]
+; Cloud skin and Barret skin
+hash = 951f2cf9e06261e5
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-PS2]
+; Cloud and others full body and costume
+hash = e8c59b7accd44474
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-PS3]
+; Barret costume and Cloud sword and some costume and hair
+hash = 40c795101bdaad50
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-PS4]
+; the round light things on the sword that I can't remember the name for highLOD
+hash = 9748d5c0ef86afae
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-PS5]
+; aerith dress
+hash = 23a79f89e256e4ed
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-PS6]
+; Cloud sword; Barret costume; Aerith Buttons; NPC costume; eyelashes
+hash = 318bb683297e3eb7
+run = CommandListSkin, CommandListWeapon
+
+[ShaderOverrideClothesBase-PS7]
+; Cloud clothes
+hash = 8b1f6ebe443b5615
+run = CommandListSkin
+
+[ShaderOverrideClothesBase-PS8]
+;hair alpha and aerith dress frillys; leaving under clothing cuz alphas
+hash = ed8e50398e4704dc
+run = CommandListSkin
+
+
+;;;;;;;;;;
+;;;;
+;;; Hair and Eye Shaders
+;;;;;;;;;;;;;;;
+
+;VS
+
+[ShaderOverrideHairBase-VS1]
+hash = 235974cdf8d429a4
+run = CommandListSkin
+
+[ShaderOverrideHairBase-VS2]
+hash = ef4995ec4f0a4d61
+run = CommandListSkin
+
+[ShaderOverrideHairBase-VS3]
+hash = 32fa64087a8d5733
+run = CommandListSkin
+
+[ShaderOverrideHairBase-VS4]
+hash = 06a7bce6a860ab8e
+run = CommandListSkin
+
+
+;PS
+
+[ShaderOverrideEyesBase-PS1]
+; MC eyes
+hash = 2db6a6321b86350b
+run = CommandListSkin
+
+[ShaderOverrideHairBase-PS1]
+hash = b0b776678c9c2b0e
+run = CommandListSkin
+
+
+;;;;;;;;;;
+;;;;
+;;; Weapon Shaders
+;;;;;;;;;;;;;;;
+
+[ShaderOverrideWeaponsBase-VS1]
+; Cloud sword
+hash = d37d049aa48bceed
+run = CommandListWeapon
+
+[ShaderOverrideWeaponsBase-VS2]
+; Cloud sword
+hash = 804f4caa626c8a94
+run = CommandListWeapon
+
+[ShaderOverrideWeaponsBase-VS3]
+; Cloud sword
+hash = 85f1420647ba7724
+run = CommandListWeapon
+
+[ShaderOverrideWeaponsBase-VS5]
+; Cloud sword and Barrett Costume; npc weapons
+hash = da40f816c26f6720
+run = CommandListWeapon, CommandListSkin
+
+[ShaderOverrideMateriaBase-VS1]
+; Materia
+hash = fbde77a1c03bf340
+run = CommandListWeapon
