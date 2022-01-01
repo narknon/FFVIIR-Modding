@@ -1,0 +1,23 @@
+::***BACKUP BLOCK***
+::Files found or not found
+set _FileFound=Not found
+
+SETLOCAL
+SETLOCAL ENABLEDELAYEDEXPANSION
+
+if not exist "%_FilePath%%_FileName%" goto :NotFound
+
+::If a backup file exists, delete it
+if exist "%_FilePath%%_WrkFile%" (
+    echo Deleting "%_FilePath%%_WrkFile%" 
+    del "%_FilePath%%_WrkFile%" >nul 2>&1
+    )
+
+echo.
+echo Backing up "%_FilePath%%_FileName%"...
+copy "%_FilePath%%_FileName%" "%_FilePath%%_WrkFile%" /v
+
+::Delete the original file. No worries, we got a backup.
+if exist "%_FilePath%%_FileName%" del "%_FilePath%%_FileName%"
+echo.
+::***END BACKUP BLOCK***
